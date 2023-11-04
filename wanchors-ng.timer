@@ -1,0 +1,10 @@
+# wanchors-ng.timer
+[Unit]
+Description=Run wanchors-ng.service every 5 minutes
+
+[Timer]
+OnBootSec=TIMER_INTERVAL
+OnUnitActiveSec=TIMER_INTERVAL
+
+[Install]
+WantedBy=timers.target

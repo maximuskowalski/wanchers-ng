@@ -1,0 +1,12 @@
+# wanchors.service
+[Unit]
+Description=Watch for anchor files and manage services
+
+[Service]
+User=PLACEHOLDER
+Group=PLACEHOLDER
+ExecStart=SCRIPT_LOCATION
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

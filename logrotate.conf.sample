@@ -1,0 +1,10 @@
+# log path and USER GROUP need to be replaced with VARS
+LOGFILE_PLACEHOLDER {
+  daily
+  rotate 5
+  compress
+  missingok
+  size 2M
+  notifempty
+  create 644 USER_GROUP_PLACEHOLDER
+}
